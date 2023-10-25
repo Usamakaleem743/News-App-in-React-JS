@@ -24,7 +24,6 @@ const App=()=>  {
       setMode('dark');
       document.body.style.backgroundColor='#1F1E1F';
       showAlert("Dark mode has been Enabled","success");
-      
     }
     else{
       setMode('light');

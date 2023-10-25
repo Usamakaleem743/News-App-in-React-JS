@@ -5,7 +5,7 @@ const Newsitem =(props)=> {
     return (
       <div style={{ background: props.mode ===`dark`?`#1F1E1F`:`white`,color: props.mode ===`dark`?`white`:`black`, width: "22rem"} }>
 
-        <div className="card "   >
+        <div className="card">
           <span className="position-absolute top-0  translate-middle badge rounded-pill bg-danger" style={{ left: '80%', zindex: '1' }}>{source}</span>
           <img style={{ height: "12rem" }}src={ !imageurl ? "https://i0.wp.com/indiaeducationdiary.in/wp-content/uploads/2022/06/University-of-Sheffield.jpg?fit=680%2C383&ssl=1": imageurl }
             className="card-img-top"

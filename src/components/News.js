@@ -32,17 +32,15 @@ const News = (props) => {
     setLoading(false);
   };
   useEffect(() => {
-    updatenews()
+    updatenews();
     //eslint-disable-next-line;
     document.title=`${capitalizeFirstLetter(props.category)} - Newsmonkey`
   }, [])
   
-
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
 
-  
 
   return (
     <>
